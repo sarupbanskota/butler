@@ -1,6 +1,6 @@
 .dropdown-arrow-inverse {
-  border-bottom-color: #34495e !important;
-  border-top-color: #34495e !important;
+  border-bottom-color: #ffffff !important;
+  border-top-color: #ffffff !important;
 }
 .container {
   width: 970px !important;
@@ -186,7 +186,7 @@
   color: #1abc9c;
 }
 .demo-browser {
-  background: #2c3e50 url(../images/demo/browser.png) 0 0 no-repeat;
+  background: #005397 url(../images/demo/browser.png) 0 0 no-repeat;
   background-size: 659px 42px;
   color: #ffffff;
   margin: 0 41px 140px 0;
@@ -242,7 +242,7 @@
   -webkit-font-smoothing: antialiased;
 }
 .demo-browser-content {
-  background-color: #34495e;
+  background-color: #ffffff;
   overflow: hidden;
   padding: 21px 0 0 20px;
   border-radius: 0 0 6px;

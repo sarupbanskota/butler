@@ -11,15 +11,15 @@
 
 // 14px - base font-size in flat-ui, so if it will change we should change all fonts. And this mixin do it!
 .font(@font-size:16px,@color:@text-color-default){
-  @font-flat-ui: (@font-size/14); 
+  @font-flat-ui: (@font-size/14);
   font-size: @font-flat-ui * @font-size-base;
   font-weight:normal;
   color: @color;
 }
 
 //1.231em - flat-ui standart line-height
-@em-px:18; //18px=1em standart. If you declarate another value change this variable to your value!!! 
-.line-height(@line-height: (@line-height-base * @em-px)px){ 
+@em-px:18; //18px=1em standart. If you declarate another value change this variable to your value!!!
+.line-height(@line-height: (@line-height-base * @em-px)px){
   @tem-lh: @line-height * 1.231;
   line-height:(@tem-lh /  (@line-height-base * @em-px)) * @em-px;
 }
@@ -42,7 +42,7 @@ header {
       font-family:@font-family-demo;
       font-weight: 800;
       letter-spacing:-1px;
-      color: #2c3e50;
+      color: #005397;
       img:first-child {float: left; margin: -10px 15px 0 0;}
   }
 }
